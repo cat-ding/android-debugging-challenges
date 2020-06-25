@@ -3,7 +3,10 @@ package com.codepath.debuggingchallenges.activities;
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.codepath.debuggingchallenges.R;
 
@@ -32,7 +35,5 @@ public class MainActivity extends AppCompatActivity {
         launchActivity(ChangeBackgroundActivity.class);
     }
 
-    public void launchToolbarActivity(View view) {
-        launchActivity(ToolbarActivity.class);
-    }
+    public void launchToolbarActivity(View view) { launchActivity(ToolbarActivity.class); }
 }
